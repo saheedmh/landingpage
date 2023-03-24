@@ -1,0 +1,128 @@
+section{
+    width:100%;
+    height: 100vh;
+    margin-bottom: 70px;
+    background:#F5F5F5;
+
+}
+.list-prps{
+    display: flex;
+     
+     justify-content: space-between;
+     margin:0 30px;
+     padding:10px;
+}
+.list-prps > :nth-child(1){
+    width: 313px;
+    height:64px;
+    font-weight: 800px;
+    size:36px;
+    text-transform: capitalize;
+}
+.list-prps > :nth-child(2){
+ height: 65px;
+width: 200px;
+background: #F4511E;
+border-radius: 5px;
+outline: none;
+color:#fff;
+font-size: 23px;
+border: none;
+cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.container > .col-1{
+height: 521px;
+width: 358px;
+background: #FFFFFF;
+box-shadow: 0px 34.0693px 36.1986px rgba(0, 0, 0, 0.133714);
+border-radius: 26.616628646850586px;
+
+}
+.row-2{
+    margin:10px  20px;
+}
+.row-2 > :nth-child(1){
+    width:285px;
+    height:30px;
+    font-size:23px;
+    margin-bottom:50px;
+    text-transform: capitalize;
+}
+
+.list-prps > h2 >span{
+border-bottom: 2px solid #F4511E; 
+}
+.row-2 > :nth-child(2){
+    font-size:12px;
+    font-weight: lighter;
+    margin-top:40px;
+    color:darkgray;
+}
+.row-2 > :nth-child(3){
+    font-weight: 700px;
+    margin-bottom: 30px;
+    width:200px;
+    height:30px;
+    font-size:25px;
+    color: #F4511E;
+    text-transform: capitalize;
+
+}
+.shape{
+    display: flex;
+    justify-content: space-between;
+    margin-left:-20px;
+    margin-right: -20px;
+    
+    
+
+
+}
+.shape > button{
+    width:125px;
+    height: 60px;
+    display: flex;
+    margin:1px;
+    border-bottom-left-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    border:none;
+
+    margin-top:1px;
+    
+}
+.btn{
+    margin: auto ;
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+    
+}
+.btn > button{
+    height: 40px;
+    padding:5px;
+    background-color: white;
+}
+.btn >  :nth-child(1){
+    background:darkgray;
+    width:50px;
+    color:lightgray;
+}
+.btn >  :nth-child(2){
+    color:orangered;
+    font-weight: bold;
+}
+.btn >  :nth-child(3){
+    background:orangered;
+    color: white;
+    
+}
+.btn >  :last-child{
+    width:60px;
+}

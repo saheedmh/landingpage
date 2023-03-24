@@ -1,0 +1,54 @@
+
+.main{
+    background-image: url('../../public/images/rosehome.png');
+
+    height:700px;
+    width: 100%;
+    background-repeat: repeat;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid white;
+    width: 70%;
+    margin-left:20px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap:15px;
+    margin-top:18px;
+}
+li{
+    color:#fff;
+    text-transform: capitalize;
+    font-size:18px;
+}
+.nav1{
+    display: flex;
+}
+.nav1 > h2{
+height: 210px;
+width: 500px;
+position: relative;
+left: 120px;
+top: 291px;
+color:#fff;
+font-family: Inter;
+font-size: 52px;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: -1px;
+text-align: left;
+text-transform: capitalize;
+}
+.nav1 > .map img{
+position:absolute;
+height: 340px;
+width: 408px;
+left: 680px;
+top: 280px;
+border-radius: 15px;
+
+}
